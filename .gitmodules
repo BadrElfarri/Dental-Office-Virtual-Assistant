@@ -1,0 +1,9 @@
+[submodule "Dental-Office-Scheduler-API"]
+	path = Dental-Office-Scheduler-API
+	url = https://github.com/BadrElfarri/Dental-Office-Scheduler-API
+[submodule "Dental-Office-ChatBot"]
+	path = Dental-Office-ChatBot
+	url = https://github.com/BadrElfarri/Dental-Office-ChatBot
+[submodule "Dental-Office-Websit"]
+	path = Dental-Office-Websit
+	url = https://github.com/BadrElfarri/Dental-Office-Websit
