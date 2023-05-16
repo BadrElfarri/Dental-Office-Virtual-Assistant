@@ -1,55 +1,18 @@
-# README Template
+# Dental Office ChatBot, Udacity Project
 
-Below is a template provided for use when building your README file for students.
+Build a customer support chatbot that lives on a dentist website. The bot will use Azure QnA Maker and LUIS to answer patient questions and help them schedule appointments.
+This parent repository is linked to 3 different child repositories where the solution has been built
 
-# Project Title
+- Dental Office Chatbot: This solution consists of a Node.js backend that handles the logic of the chatbot. It is connected to the language/bot resource in Azure, enabling the chatbot to communicate with users and provide assistance related to dental office inquiries.
+- Dental office schedule api: This API serves as a third-party integration for scheduling appointments and retrieving available time slots. It allows patients to view and book appointments based on their preferred timing and availability.
+- Dental office website: The official website of the dental office serves as the primary interface for customers. Users can interact with the chatbot on the website, asking questions and receiving responses. Additionally, they can schedule appointments with dentists based on their own schedules, leveraging the capabilities of the chatbot and the Dental Office Schedule API.
 
-Project description goes here.
+## Architecture
 
-## Getting Started
+The architecture of the solution is shown below.
+<img src="dentistbot.png" alt="Alt Text" width="800">
 
-Instructions for how to get a copy of the project running on your local machine.
+## Website
 
-### Dependencies
-
-```
-Examples here
-```
-
-### Installation
-
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
-
-```
-Give an example here
-```
-
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
-
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
-
-## License
-
-[License](LICENSE.txt)
+The website we are building is shown below.
+<img src="website.png" alt="Alt Text" width="800">
